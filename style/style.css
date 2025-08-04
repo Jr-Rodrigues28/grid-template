@@ -1,0 +1,35 @@
+.block-container{
+    display: grid;
+    grid-template-rows: minmax(150px, max-content) 75vh minmax(150px, max-content);
+    gap: 10px;
+}
+
+.block-container div {
+    border-radius: 6px;
+}
+
+.block {
+    width: 100%;
+}
+
+.var-1 {
+    background-color: aquamarine;
+}
+
+.var-2 {
+    background-color: chartreuse;
+}
+
+.var-3 {
+    background-color: slategray;
+}
+
+.coluna {
+    display: grid;
+    grid-template-columns:  minmax(150px, max-content) 1fr minmax(150px, max-content);
+    gap: 10px;
+}
+
+.color {
+    color: aliceblue;
+}
