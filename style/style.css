@@ -26,10 +26,29 @@
 
 .coluna {
     display: grid;
-    grid-template-columns:  minmax(150px, max-content) 1fr minmax(150px, max-content);
+    grid-template-columns:  minmax(250px, max-content) 1fr minmax(250px, max-content);
     gap: 10px;
 }
 
 .color {
     color: aliceblue;
+}
+
+.block:not(.coluna) {
+    display: flex;
+    justify-content: center;
+    max-width: 100%;
+    background-color: blue !important;
+}
+
+.block.coluna {
+    border: 2px solid red;
+}
+
+h3 {
+    align-self: center;
+}
+
+.block.var-1 {
+    background-image: url("../png-clipart-football-field-football-field-green-background.png");
 }
