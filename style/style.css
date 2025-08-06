@@ -1,3 +1,6 @@
+@import "./timeA.css";
+@import "./timeB.css";
+
 .block-container{
     display: grid;
     grid-template-rows: minmax(150px, max-content) 75vh minmax(150px, max-content);
@@ -12,43 +15,53 @@
     width: 100%;
 }
 
-.var-1 {
+.var-0 {
     background-color: aquamarine;
+}
+
+.var-1 {
+    background-color: black;
 }
 
 .var-2 {
     background-color: chartreuse;
+    display: flex;
+    justify-content: center;
+    position: relative;  /* A referencia de posição para o filho */
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    inset: 0;
 }
 
 .var-3 {
+    background-color: black;
+}
+
+.var-4 {
     background-color: slategray;
 }
 
 .coluna {
     display: grid;
-    grid-template-columns:  minmax(250px, max-content) 1fr minmax(250px, max-content);
+    grid-template-columns:  minmax(350px, max-content) 1fr minmax(350px, max-content);
     gap: 10px;
 }
 
 .color {
-    color: aliceblue;
+    color: #fff;
 }
 
-.block:not(.coluna) {
+.var-0,
+.var-1,
+.var-2,
+.var-3,
+.var-4 {
     display: flex;
+    align-items: center;
+    text-align: center;
     justify-content: center;
-    max-width: 100%;
-    background-color: blue !important;
-}
-
-.block.coluna {
-    border: 2px solid red;
-}
-
-h3 {
-    align-self: center;
-}
-
-.block.var-1 {
-    background-image: url("../png-clipart-football-field-football-field-green-background.png");
 }

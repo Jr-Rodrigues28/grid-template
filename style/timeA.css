@@ -1,0 +1,88 @@
+/* Referente a imagem e a posição de cada jogador em campo */
+span {
+    color: #fff;
+    position: absolute;  /* Disponibilizar todo o espaço para o filho */
+    z-index: 2;  /* Trás o nome dos jogadores para frente da imagem */
+    rotate: 90deg;
+    transform: scaleY(-1) scaleX(-1);
+    font-weight: bold;
+}
+
+/* Referente aos jogadores */
+.var-2 span:nth-child(2) {
+    color: yellow;
+    top: 48.5%;
+    left: 4%;
+    font-size: 18px;
+}
+
+.var-2 span:nth-child(3) {
+    color: red;
+    top: 16%;
+    left: 15%;
+    font-size: 18px;
+}
+
+.var-2 span:nth-child(4) {
+    color: red;
+    top: 80%;
+    left: 15%;
+    font-size: 18px;
+}
+
+.var-2 span:nth-child(5) {
+    color: red;
+    top: 48.5%;
+    left: 15%;
+    right: 52%;
+    font-size: 18px;
+}
+
+.var-2 span:nth-child(6) {
+    color: red;
+    top: 16%;
+    left: 15%;
+    font-size: 18px;
+}
+
+.var-2 span:nth-child(7) {
+    color: red;
+    top: 16%;
+    left: 15%;
+    font-size: 18px;
+}
+
+.var-2 span:nth-child(8) {
+    color: red;
+    top: 16%;
+    left: 15%;
+    font-size: 18px;
+}
+
+.var-2 span:nth-child(9) {
+    color: red;
+    top: 16%;
+    left: 15%;
+    font-size: 18px;
+}
+
+.var-2 span:nth-child(10) {
+    color: red;
+    top: 16%;
+    left: 15%;
+    font-size: 18px;
+}
+
+.var-2 span:nth-child(11) {
+    color: red;
+    top: 16%;
+    left: 15%;
+    font-size: 18px;
+}
+
+.var-2 span:nth-child(12) {
+    color: red;
+    top: 16%;
+    left: 15%;
+    font-size: 18px;
+}
