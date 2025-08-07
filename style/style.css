@@ -1,6 +1,19 @@
 @import "./timeA.css";
 @import "./timeB.css";
 
+/* PLACAR */
+.var-0 {
+    gap: 200px;
+}
+
+.var-0 input {
+    border-radius: 15px;
+}
+
+.separador-placar {
+    transform: translateY(-10px);  /* Não interfere no espaço e sim no seu proprio eixo */
+}
+
 .block-container{
     display: grid;
     grid-template-rows: minmax(150px, max-content) 75vh minmax(150px, max-content);

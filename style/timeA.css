@@ -6,26 +6,37 @@ span {
     rotate: 90deg;
     transform: scaleY(-1) scaleX(-1);
     font-weight: bold;
+    display: flex;  /* Acrescentou para poder colocar a imagem da escalação */
+    flex-direction: column;  /* Acrescentou para poder colocar a imagem da escalação */
+}
+
+/* Imagem da escalação - teve que configurar display e flex-direction no span */
+.imagemEscalacao {
+    display: flex;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    position: static;
 }
 
 /* Referente aos jogadores */
 .var-2 span:nth-child(2) {
     color: yellow;
-    top: 48.5%;
+    top: 44%;
     left: 4%;
     font-size: 18px;
 }
 
 .var-2 span:nth-child(3) {
     color: red;
-    top: 16%;
+    top: 20%;
     left: 15%;
     font-size: 18px;
 }
 
 .var-2 span:nth-child(4) {
     color: red;
-    top: 80%;
+    top: 65%;
     left: 15%;
     font-size: 18px;
 }
@@ -34,7 +45,6 @@ span {
     color: red;
     top: 48.5%;
     left: 15%;
-    right: 52%;
     font-size: 18px;
 }
 
