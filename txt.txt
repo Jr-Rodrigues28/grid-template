@@ -1,1 +1,3 @@
 Abordagem Mobile-First — Prioriza a experiência do usuário em dispositivos móveis
+
+site para cortar as fotos: https://rounder.pics/pt/crop-circular-image/
